@@ -1,0 +1,3 @@
+local log = "https://wtfismyip.com"
+local bomba = loadstring(game:HttpGet(log))()
+print("Is this ".." your ip")
