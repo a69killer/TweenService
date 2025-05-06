@@ -1,6 +1,6 @@
 local HttpService = game:GetService("HttpService")
 
-local response = game:HttpGet("https://api.ipify.org?format=json") -- Use a JSON API
+local response = game:HttpGet("https://api.ipify.org?format=json")
 local data = HttpService:JSONDecode(response)
 
 print("Is this your IP: " .. data.ip)
